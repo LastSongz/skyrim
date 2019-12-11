@@ -23,7 +23,7 @@ public class BrandController {
     public List<TbBrand> findRedis(){
         return brandService.getRedis("skyrim");
     }
-    
+
     @RequestMapping("/gitTest")
     public List<TbBrand> GitTest(){
         return brandService.getRedis("skyrim");
